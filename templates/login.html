@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>NAVMO</title>
+</head>
+<body>
+<form action="./?testing=true" method="post">
+	{% csrf_token %}
+<label>Groupid</label>  <input type="text" name="Groupid" required width="70%"></input><br>
+<label>Message</label>  <TextArea type="text" name="txtmsg" style="width:70%" required  > </TextArea><br>
+ <input type="submit" name="submit" value="submit" />
+</form>
+
+</body>
+</html>
